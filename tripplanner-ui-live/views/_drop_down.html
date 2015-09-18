@@ -1,0 +1,17 @@
+  <div class='form-group planner-picker'>
+    <label for='hotels'>{{label}}</label>
+    <div class='row'>
+      <div class='col-sm-8'>
+        <select class='form-control input-sm {{label}}-selector'>
+        {% for item in items %}
+        <option value='{{item._id.toString()}}'>{{item.name}}</option>
+        {% endfor %}
+        </select>
+      </div>
+      <div class='col-sm-4'>
+        <span class="add-item input-sm glyphicon glyphicon-plus-sign" 
+          data-label='{{label}}'>
+        </span>
+      </div>
+    </div>
+  </div>

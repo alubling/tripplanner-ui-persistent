@@ -1,0 +1,29 @@
+{
+  "name": "tripplanner-ui-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "API_KEY=AIzaSyABcDdei3GEuvDnoTChFZUSbh1cva5duLU nodemon app.js",
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.10.0",
+    "body-parser": "^1.14.0",
+    "chalk": "^1.1.1",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "karma": "^0.13.9",
+    "mongoose": "^4.1.6",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.18"
+  }
+}
